@@ -1,26 +1,31 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import { ref } from 'vue'
 import MainLayout from '@/components/Layout/MainLayout.vue'
 import MainNav from '@/components/Layout/MainNav.vue'
-import BasicPage from '@/components/Page/BasicPage.vue'
 
 let NavItemsArray = ref([
   {
     name: 'Home',
-    link: '#',
+    link: '/',
     target: '_self',
     class: 'nav-link'
   },
   {
-    name: 'Services',
-    link: '#',
+    name: 'Articles',
+    link: '/articles',
     target: '_self',
     class: 'nav-link'
   },
   {
-    name: 'Contact',
-    link: '#',
+    name: 'Panier',
+    link: '/panier',
+    target: '_self',
+    class: 'nav-link'
+  },
+  {
+    name: 'Salutations',
+    link: '/greetings',
     target: '_self',
     class: 'nav-link'
   }
@@ -37,7 +42,6 @@ let UserNavItemsArray = ref([
     target: '_self'
   }
 ])
-
 </script>
 
 <template>
@@ -45,17 +49,8 @@ let UserNavItemsArray = ref([
     <template v-slot:header>
       <main-nav :navItems="NavItemsArray" :userNavItems="UserNavItemsArray"> </main-nav>
     </template>
-    <basic-page></basic-page>
+    <RouterView />
   </main-layout>
-
-
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-
-  <RouterView />
 </template>
 
 <style scoped></style>

@@ -1,9 +1,9 @@
 <script>
-import UserForm from '../Form/UserForm.vue'
-import UserMessage from '../Content/UserMessage.vue'
+import UserForm from '@/components/Form/UserForm.vue'
+import UserMessage from '@/components/Content/UserMessage.vue'
 
 export default {
-  name: 'BasicPage',
+  name: 'HelloPage',
   components: {
     UserForm,
     UserMessage
