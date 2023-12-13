@@ -23,7 +23,9 @@ export default {
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <RouterLink class="navbar-brand" to="/">Image</RouterLink>
+      <RouterLink class="navbar-brand" to="/">
+        <img src="../../assets/images/decologo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top rounded-circle">
+      </RouterLink>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

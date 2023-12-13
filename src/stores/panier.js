@@ -8,9 +8,10 @@ export const usePanierStore = defineStore('panier', {
   getters: {
     getPanier: (state) => state.panier,
     calculerTotal: (state) => {
-      return state.panier.reduce((acc, curV) => acc + curV.prix * curV.quantite, 0)
+      const total = state.panier.reduce((acc, curV) => acc + curV.prix * curV.quantite, 0);
+      return parseFloat(total.toFixed(2)); // deux chiffres après la virgule
     }
-  },
+      },
   actions: {
     ajouterAuPanier(article) {
       //verifie présence nouvel article dans le panier

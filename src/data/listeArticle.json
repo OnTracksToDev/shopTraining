@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "nom": "Lampadaire Design",
+    "categorie": "Luminaires",
+    "prix": 129.99,
+    "stock": 20,
+    "imgUrl": "https://images.pexels.com/photos/941794/pexels-photo-941794.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de lampadaire design",
+    "description": "Éclairez votre espace avec élégance grâce à ce lampadaire au design contemporain.",
+    "prioriteDescription": "Créez une ambiance lumineuse unique avec ce lampadaire au design raffiné."
+  },
+  {
+    "id": 2,
+    "nom": "Suspension Lumineuse",
+    "categorie": "Luminaires",
+    "prix": 79.5,
+    "stock": 25,
+    "imgUrl": "https://images.pexels.com/photos/4946816/pexels-photo-4946816.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de suspension lumineuse",
+    "description": "Apportez une touche de sophistication à votre espace avec cette suspension lumineuse.",
+    "prioriteDescription": "Illuminez vos soirées avec élégance grâce à cette suspension lumineuse au design moderne."
+  },
+  {
+    "id": 3,
+    "nom": "Appliques Murales",
+    "categorie": "Luminaires",
+    "prix": 45.99,
+    "stock": 18,
+    "imgUrl": "https://images.pexels.com/photos/18468478/pexels-photo-18468478/free-photo-of-building-fenetres-fenetre-urbain.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image d’appliques murales",
+    "description": "Accentuez votre décoration murale avec ces appliques murales au style contemporain.",
+    "prioriteDescription": "Créez un éclairage d’ambiance avec ces appliques murales au design élégant."
+  },
+  {
+    "id": 4,
+    "nom": "Abat-jour Stylisé",
+    "categorie": "Luminaires",
+    "prix": 34.95,
+    "stock": 22,
+    "imgUrl": "https://images.pexels.com/photos/37869/lamps-light-lampshade-screen-37869.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image d’abat-jour stylisé",
+    "description": "Donnez une touche artistique à votre éclairage avec cet abat-jour au design stylisé.",
+    "prioriteDescription": "Personnalisez votre espace avec cet abat-jour stylisé qui mêle forme et fonction."
+  },
+  {
+    "id": 5,
+    "nom": "Coussins Décoratifs",
+    "categorie": "Textiles",
+    "prix": 18.99,
+    "stock": 30,
+    "imgUrl": "https://images.pexels.com/photos/3991265/pexels-photo-3991265.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de coussins décoratifs",
+    "description": "Rehaussez le confort de votre canapé avec ces coussins décoratifs aux motifs élégants.",
+    "prioriteDescription": "Ajoutez une touche de style à votre espace avec ces coussins décoratifs aux motifs tendance."
+  },
+  {
+    "id": 6,
+    "nom": "Tapis Contemporain",
+    "categorie": "Textiles",
+    "prix": 64.5,
+    "stock": 15,
+    "imgUrl": "https://images.pexels.com/photos/3965509/pexels-photo-3965509.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de tapis contemporain",
+    "description": "Définissez votre espace avec style grâce à ce tapis contemporain aux motifs modernes.",
+    "prioriteDescription": "Transformez votre sol en une œuvre d’art avec ce tapis contemporain au design audacieux."
+  },
+  {
+    "id": 7,
+    "nom": "Rideaux Élégants",
+    "categorie": "Textiles",
+    "prix": 27.99,
+    "stock": 25,
+    "imgUrl": "https://images.pexels.com/photos/8068647/pexels-photo-8068647.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de rideaux élégants",
+    "description": "Ajoutez une touche de sophistication à vos fenêtres avec ces rideaux élégants.",
+    "prioriteDescription": "Créez une atmosphère chaleureuse avec ces rideaux élégants au tombé parfait."
+  },
+  {
+    "id": 8,
+    "nom": "Jeté de Canapé en Tricot",
+    "categorie": "Textiles",
+    "prix": 38.75,
+    "stock": 20,
+    "imgUrl": "https://images.pexels.com/photos/6707630/pexels-photo-6707630.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de jeté de canapé en tricot",
+    "description": "Ajoutez une couche de confort à votre canapé avec ce jeté en tricot doux et moelleux.",
+    "prioriteDescription": "Créez une ambiance cocooning avec ce jeté de canapé en tricot au toucher agréable."
+  },
+  {
+    "id": 9,
+    "nom": "Miroir Mural Moderne",
+    "categorie": "Accessoires Muraux",
+    "prix": 55.99,
+    "stock": 18,
+    "imgUrl": "https://images.pexels.com/photos/6899356/pexels-photo-6899356.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de miroir mural moderne",
+    "description": "Agrandissez visuellement votre pièce avec ce miroir mural moderne au cadre élégant.",
+    "prioriteDescription": "Ajoutez une touche de modernité à votre espace avec ce miroir mural au design épuré."
+  },
+  {
+    "id": 10,
+    "nom": "Étagères Flottantes",
+    "categorie": "Accessoires Muraux",
+    "prix": 42.5,
+    "stock": 22,
+    "imgUrl": "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image d’étagères flottantes",
+    "description": "Optimisez l’espace mural avec élégance grâce à ces étagères flottantes.",
+    "prioriteDescription": "Exposez vos objets préférés avec style grâce à ces étagères flottantes au design moderne."
+  },
+  {
+    "id": 11,
+    "nom": "Tableaux Artistiques",
+    "categorie": "Accessoires Muraux",
+    "prix": 78.0,
+    "stock": 15,
+    "imgUrl": "https://images.pexels.com/photos/7951528/pexels-photo-7951528.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de tableaux artistiques",
+    "description": "Admirez l’art au quotidien avec ces tableaux artistiques aux couleurs vibrantes.",
+    "prioriteDescription": "Transformez vos murs en galerie d’art avec ces tableaux artistiques originaux."
+  },
+  {
+    "id": 12,
+    "nom": "Horloge Design",
+    "categorie": "Accessoires Muraux",
+    "prix": 32.99,
+    "stock": 20,
+    "imgUrl": "https://images.pexels.com/photos/2909099/pexels-photo-2909099.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image d’horloge design",
+    "description": "Restez à l’heure avec style grâce à cette horloge au design contemporain.",
+    "prioriteDescription": "Créez un point focal unique dans votre espace avec cette horloge design aux détails innovants."
+  },
+  {
+    "id": 13,
+    "nom": "Sculpture Abstraite",
+    "categorie": "Objets Décoratifs",
+    "prix": 48.5,
+    "stock": 18,
+    "imgUrl": "https://images.pexels.com/photos/14724965/pexels-photo-14724965.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de sculpture abstraite",
+    "description": "Exprimez l’art abstrait dans votre maison avec cette sculpture aux formes uniques.",
+    "prioriteDescription": "Ajoutez une note artistique à votre espace avec cette sculpture abstraite aux lignes fluides."
+  },
+  {
+    "id": 14,
+    "nom": "Bougeoirs Design",
+    "categorie": "Objets Décoratifs",
+    "prix": 21.99,
+    "stock": 25,
+    "imgUrl": "https://images.pexels.com/photos/7302777/pexels-photo-7302777.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de bougeoirs design",
+    "description": "Créez une ambiance chaleureuse avec ces bougeoirs au design moderne et épuré.",
+    "prioriteDescription": "Illuminez votre espace avec style grâce à ces bougeoirs design aux lignes élégantes."
+  },
+  {
+    "id": 15,
+    "nom": "Vases en Verre Soufflé",
+    "categorie": "Objets Décoratifs",
+    "prix": 33.75,
+    "stock": 20,
+    "imgUrl": "https://images.pexels.com/photos/8903267/pexels-photo-8903267.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de vases en verre soufflé",
+    "description": "Ajoutez une touche artistique à votre espace avec ces vases en verre soufflé.",
+    "prioriteDescription": "Mettez en valeur vos fleurs préférées avec ces vases en verre soufflé au design élégant."
+  },
+  {
+    "id": 16,
+    "nom": "Statuettes Artistiques",
+    "categorie": "Objets Décoratifs",
+    "prix": 26.5,
+    "stock": 22,
+    "imgUrl": "https://images.pexels.com/photos/9764955/pexels-photo-9764955.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de statuettes artistiques",
+    "description": "Ornez vos étagères avec ces statuettes artistiques aux détails minutieux.",
+    "prioriteDescription": "Créez une galerie d’art miniature avec ces statuettes artistiques au charme unique."
+  }
+]

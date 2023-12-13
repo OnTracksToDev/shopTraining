@@ -1,10 +1,8 @@
 <script>
-import ListeArticle from '@/components/Content/ListeArticle.vue'
 import PanierAchat from '@/components/Content/PanierAchat.vue'
 
 export default {
   components: {
-    ListeArticle,
     PanierAchat
   }
 }
@@ -12,8 +10,7 @@ export default {
 
 <template>
     <div class="container mt-4"> 
-      <h1 class="mb-4">Shopping App</h1>
-      <ListeArticle></ListeArticle>
+      <h1 class="mb-4">Votre Panier 🛒</h1>
       <PanierAchat></PanierAchat>
     </div>
   </template>

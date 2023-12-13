@@ -1,31 +1,52 @@
 <script>
-import { mapState } from 'pinia'
-import { useArticlesStore } from '@/stores/articles'
+import ListeArticle from '@/components/Content/ListeArticle.vue'
+import ArticleForm from '@/components/Form/ArticleForm.vue'
 
 export default {
-  computed: {
-    ...mapState(useArticlesStore, {
-      getAllArticlesState: 'getAllArticles'
-    })
+  name: 'ArticlesPage',
+  components: {
+    ListeArticle,
+    ArticleForm
+  },
+  data() {
+    return {
+      editMode: false,
+      articleToEdit: null
+    }
+  },
+  methods: {
+    editArticleItemFun(item) {
+      this.editMode = true
+      this.articleToEdit = item
+    },
+    reset() {
+      this.articleToEdit = null
+      this.editMode = false
+    }
+  },
+  mounted() {
+    this.reset()
   }
 }
 </script>
 
 <template>
-  <div class="container mt-4">
-    <h2>Liste de Produits de la boutique</h2>
-    <ul class="list-group">
-      <li v-for="article in getAllArticlesState" :key="article.index" class="list-group-item d-flex justify-content-between align-items-center">
-        <div>
-          {{ article.nom }} : {{ article.prix }}€
-        </div>
-        <router-link
-          :to="{ name: 'ArticleDetail', params: { id: article.id } }"
-          class="btn btn-success"
-        >
-          VOIR
-        </router-link>
-      </li>
-    </ul>
-  </div>
+  <section class="container row">
+    <section class="col-12">
+      <h2 class="text-center">La boutique</h2>
+    </section>
+    <section class="col-7">
+      <liste-article 
+      @editArticleItem="editArticleItemFun" 
+      :adminMode="true" 
+      />
+    </section>
+    <section class="col-4">
+      <article-form
+        @updateArticleToList="reset"
+        :editMode="editMode"
+        :articleToEdit="articleToEdit"
+      />
+    </section>
+  </section>
 </template>

@@ -29,7 +29,9 @@ export default {
       <p class="card-text">ID : {{ getCurrentArticle.id }}</p>
       <p class="card-text">Nom : {{ getCurrentArticle.nom }}</p>
       <p class="card-text">Prix : {{ getCurrentArticle.prix }} €</p>
-      <img :src="getCurrentArticle.image" class="card-img-top img-fluid" alt="" />
+      <img :src="getCurrentArticle.imgUrl" class="card-img-top img-fluid" :alt="getCurrentArticle.imgAlt" />
+      <p class="card-text">Description : {{ getCurrentArticle.description }} </p>
+      <p class="card-text">Description 2: {{ getCurrentArticle.prioriteDescription }} </p>
     </div>
   </div>
 </template>
