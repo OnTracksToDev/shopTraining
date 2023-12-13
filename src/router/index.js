@@ -5,6 +5,7 @@ import ArticlesPage from '@/views/ArticlesPage.vue'
 import HelloPage from '@/views/HelloPage.vue'
 import PanierPage from '@/views/PanierPage.vue'
 import ArticleDetailPage from '@/views/ArticleDetailPage.vue'
+import AdminPage from '@/views/AdminPage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,7 +20,11 @@ const router = createRouter({
       name: 'Panier',
       component: PanierPage
     },
-
+    {
+      path: '/Admin',
+      name: 'Admin',
+      component: AdminPage
+    },
     {
       path: '/Articles',
       name: 'Articles',

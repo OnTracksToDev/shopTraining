@@ -28,7 +28,14 @@ let NavItemsArray = ref([
     link: '/quiz',
     target: '_self',
     class: 'nav-link'
+  },
+  {
+    name: 'Admin',
+    link: '/admin',
+    target: '_self',
+    class: 'nav-link'
   }
+
 ])
 let UserNavItemsArray = ref([
   {
