@@ -23,15 +23,24 @@ export default {
 </script>
 
 <template>
-  <div class="card" style="width: 30rem;">
-    <h2 class="card-header">Details article</h2>
-    <div class="card-body" v-if="getCurrentArticle != null">
-      <p class="card-text">ID : {{ getCurrentArticle.id }}</p>
-      <p class="card-text">Nom : {{ getCurrentArticle.nom }}</p>
-      <p class="card-text">Prix : {{ getCurrentArticle.prix }} €</p>
-      <img :src="getCurrentArticle.imgUrl" class="card-img-top img-fluid" :alt="getCurrentArticle.imgAlt" />
-      <p class="card-text">Description : {{ getCurrentArticle.description }} </p>
-      <p class="card-text">Description 2: {{ getCurrentArticle.prioriteDescription }} </p>
+  <div v-if="getCurrentArticle != null" class="card mb-3" style="max-height: 100vh;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img :src="getCurrentArticle.imgUrl" class="img-fluid rounded-start" :alt="getCurrentArticle.imgAlt" />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{ getCurrentArticle.nom }}</h5>
+          <p class="card-text">Prix : {{ getCurrentArticle.prix }} €</p>
+          <p class="card-text">{{ getCurrentArticle.description }}</p>
+          <p class="card-text">{{ getCurrentArticle.prioriteDescription }}</p>
+        </div>
+      </div>
     </div>
   </div>
+  <div v-else class="alert alert-danger mt-5" role="alert">
+  <div class="card-body">
+    <p class="card-text">Aucun article correspondant</p>
+  </div>
+</div>
 </template>

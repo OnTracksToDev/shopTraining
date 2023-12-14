@@ -77,6 +77,7 @@ export default {
       this.error = this.error != null ? `${this.error} -- ${err}` : `${err}`
     },
     reset() {
+      this. editionMode= null
       this.error = null
       this.submitFormValidation = false
       this.submitFormTest = true

@@ -34,9 +34,7 @@ export default {
       <h2 class="text-center">La boutique</h2>
     </section>
     <section class="col-12">
-      <liste-article 
-      @editArticleItem="editArticleItemFun" 
-      />
+      <liste-article/>
 
     </section>
   </section>
