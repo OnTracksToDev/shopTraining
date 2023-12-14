@@ -5,7 +5,7 @@
     "categorie": "Luminaires",
     "prix": 129.99,
     "stock": 20,
-    "imgUrl": "https://images.pexels.com/photos/941794/pexels-photo-941794.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgUrl": "https://cdn.pixabay.com/photo/2018/09/25/13/47/armchair-3702332_1280.jpg",
     "imgAlt": "Image de lampadaire design",
     "description": "Éclairez votre espace avec élégance grâce à ce lampadaire au design contemporain.",
     "prioriteDescription": "Créez une ambiance lumineuse unique avec ce lampadaire au design raffiné."
@@ -27,7 +27,7 @@
     "categorie": "Luminaires",
     "prix": 45.99,
     "stock": 18,
-    "imgUrl": "https://images.pexels.com/photos/18468478/pexels-photo-18468478/free-photo-of-building-fenetres-fenetre-urbain.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgUrl": "https://cdn.pixabay.com/photo/2017/01/25/11/35/lighting-2007658_640.jpg",
     "imgAlt": "Image d’appliques murales",
     "description": "Accentuez votre décoration murale avec ces appliques murales au style contemporain.",
     "prioriteDescription": "Créez un éclairage d’ambiance avec ces appliques murales au design élégant."
@@ -60,7 +60,7 @@
     "categorie": "Textiles",
     "prix": 64.5,
     "stock": 15,
-    "imgUrl": "https://images.pexels.com/photos/3965509/pexels-photo-3965509.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgUrl": "https://cdn.pixabay.com/photo/2017/06/30/15/40/carpet-2458558_640.jpg",
     "imgAlt": "Image de tapis contemporain",
     "description": "Définissez votre espace avec style grâce à ce tapis contemporain aux motifs modernes.",
     "prioriteDescription": "Transformez votre sol en une œuvre d’art avec ce tapis contemporain au design audacieux."
@@ -137,7 +137,7 @@
     "categorie": "Objets Décoratifs",
     "prix": 48.5,
     "stock": 18,
-    "imgUrl": "https://images.pexels.com/photos/14724965/pexels-photo-14724965.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgUrl": "https://cdn.pixabay.com/photo/2014/04/07/19/01/rhino-318834_640.jpg",
     "imgAlt": "Image de sculpture abstraite",
     "description": "Exprimez l’art abstrait dans votre maison avec cette sculpture aux formes uniques.",
     "prioriteDescription": "Ajoutez une note artistique à votre espace avec cette sculpture abstraite aux lignes fluides."
@@ -148,7 +148,7 @@
     "categorie": "Objets Décoratifs",
     "prix": 21.99,
     "stock": 25,
-    "imgUrl": "https://images.pexels.com/photos/7302777/pexels-photo-7302777.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgUrl": "https://cdn.pixabay.com/photo/2013/11/28/18/28/candles-220754_640.jpg",
     "imgAlt": "Image de bougeoirs design",
     "description": "Créez une ambiance chaleureuse avec ces bougeoirs au design moderne et épuré.",
     "prioriteDescription": "Illuminez votre espace avec style grâce à ces bougeoirs design aux lignes élégantes."
@@ -170,7 +170,7 @@
     "categorie": "Objets Décoratifs",
     "prix": 26.5,
     "stock": 22,
-    "imgUrl": "https://images.pexels.com/photos/9764955/pexels-photo-9764955.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgUrl": "https://cdn.pixabay.com/photo/2017/05/02/00/45/statuette-2277041_640.jpg",
     "imgAlt": "Image de statuettes artistiques",
     "description": "Ornez vos étagères avec ces statuettes artistiques aux détails minutieux.",
     "prioriteDescription": "Créez une galerie d’art miniature avec ces statuettes artistiques au charme unique."
