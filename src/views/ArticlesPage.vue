@@ -1,10 +1,12 @@
 <script>
 import ListeArticle from '@/components/Content/ListeArticle.vue'
+import FilterPanel from '@/components/Content/FilterPanel.vue'
 
 export default {
   name: 'ArticlesPage',
   components: {
     ListeArticle,
+    FilterPanel
   },
   data() {
     return {
@@ -34,6 +36,7 @@ export default {
       <h2 class="text-center">La boutique</h2>
     </section>
     <section class="col-12">
+      <filter-panel/>
       <liste-article/>
 
     </section>
