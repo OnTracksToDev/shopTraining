@@ -30,7 +30,7 @@ export default {
 </script>
 
 <template>
-  <form @submit.prevent="submitForm" class="mt-5">
+  <form @submit.prevent="submitForm" class="mt-1">
     <div class="mb-3">
       <label for="firstName" class="form-label">Prénom</label>
       <input

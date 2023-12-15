@@ -7,7 +7,7 @@
         <div class="col-md-2 mb-3">
           <label for="category" class="form-label">Catégorie:</label>
           <select class="form-select" id="category">
-            <option selected>Toutes les catégories</option>
+            <option selected>Toutes</option>
             <option>category</option>
           </select>
         </div>

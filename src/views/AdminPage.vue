@@ -33,7 +33,7 @@ export default {
 <template>
   <section class="container row">
     <section class="col-12">
-      <h2 class="text-center">La boutique</h2>
+      <h2 class="text-center">Gestion Articles</h2>
     </section>
     <section class="col-lg-6">
       <liste-article 

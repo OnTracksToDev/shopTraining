@@ -174,5 +174,105 @@
     "imgAlt": "Image de statuettes artistiques",
     "description": "Ornez vos étagères avec ces statuettes artistiques aux détails minutieux.",
     "prioriteDescription": "Créez une galerie d’art miniature avec ces statuettes artistiques au charme unique."
+  },
+
+  {
+    "id": 17,
+    "nom": "Chaise Pivotante Confort",
+    "categorie": "Mobilier",
+    "prix": 159.99,
+    "stock": 15,
+    "imgUrl": "https://cdn.pixabay.com/photo/2022/07/20/14/58/red-chair-7334319_640.jpg",
+    "imgAlt": "Image de chaise pivotante confort",
+    "description": "Profitez du confort ultime avec cette chaise pivotante au design ergonomique.",
+    "prioriteDescription": "Transformez votre espace de détente avec cette chaise pivotante offrant un soutien exceptionnel."
+  },
+  {
+    "id": 18,
+    "nom": "Bureau Moderne en Bois",
+    "categorie": "Mobilier",
+    "prix": 249.5,
+    "stock": 12,
+    "imgUrl": "https://cdn.pixabay.com/photo/2017/08/06/01/49/table-2587598_640.jpg",
+    "imgAlt": "Image de bureau moderne en bois",
+    "description": "Optimisez votre productivité avec ce bureau moderne en bois aux lignes épurées.",
+    "prioriteDescription": "Créez un espace de travail élégant et fonctionnel avec ce bureau en bois de qualité."
+  },
+  {
+    "id": 19,
+    "nom": "Canapé Convertible Confortable",
+    "categorie": "Mobilier",
+    "prix": 349.99,
+    "stock": 10,
+    "imgUrl": "https://cdn.pixabay.com/photo/2017/08/02/01/01/living-room-2569325_640.jpg",
+    "imgAlt": "Image de canapé convertible confortable",
+    "description": "Optimisez l'espace avec ce canapé convertible offrant confort et praticité.",
+    "prioriteDescription": "Transformez votre salon en espace polyvalent avec ce canapé convertible au design moderne."
+  },
+  {
+    "id": 20,
+    "nom": "Table Basse Design",
+    "categorie": "Mobilier",
+    "prix": 129.95,
+    "stock": 18,
+    "imgUrl": "https://cdn.pixabay.com/photo/2021/02/03/23/10/living-room-5979695_640.jpg",
+    "imgAlt": "Image de table basse design",
+    "description": "Ajoutez une touche d'élégance à votre salon avec cette table basse au design contemporain.",
+    "prioriteDescription": "Créez un point central dans votre espace de vie avec cette table basse design aux lignes épurées."
+  },
+  {
+    "id": 21,
+    "nom": "Armoire de Rangement Spacieuse",
+    "categorie": "Mobilier",
+    "prix": 299.5,
+    "stock": 14,
+    "imgUrl": "https://images.pexels.com/photos/6508343/pexels-photo-6508343.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image d'armoire de rangement spacieuse",
+    "description": "Organisez votre espace avec style grâce à cette armoire de rangement spacieuse.",
+    "prioriteDescription": "Optimisez le rangement tout en ajoutant une touche moderne à votre chambre avec cette armoire spacieuse."
+  },
+  {
+    "id": 22,
+    "nom": "Lampe de Bureau Réglable",
+    "categorie": "Luminaires",
+    "prix": 49.99,
+    "stock": 20,
+    "imgUrl": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de lampe de bureau réglable",
+    "description": "Éclairez votre espace de travail avec précision grâce à cette lampe de bureau réglable.",
+    "prioriteDescription": "Optimisez votre productivité avec cette lampe de bureau fonctionnelle au design moderne."
+  },
+  {
+    "id": 23,
+    "nom": "Miroir Pleine Longueur",
+    "categorie": "Accessoires Muraux",
+    "prix": 79.95,
+    "stock": 15,
+    "imgUrl": "https://images.pexels.com/photos/5998062/pexels-photo-5998062.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de miroir pleine longueur",
+    "description": "Améliorez votre routine matinale avec ce miroir pleine longueur au design élégant.",
+    "prioriteDescription": "Ajoutez une touche de glamour à votre espace avec ce miroir pleine longueur pratique et esthétique."
+  },
+  {
+    "id": 24,
+    "nom": "Ensemble de Table et Chaises",
+    "categorie": "Mobilier",
+    "prix": 399.0,
+    "stock": 10,
+    "imgUrl": "https://images.pexels.com/photos/2092058/pexels-photo-2092058.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image d'ensemble de table et chaises",
+    "description": "Créez une salle à manger accueillante avec cet ensemble de table et chaises élégant.",
+    "prioriteDescription": "Réunissez famille et amis autour de cette table et de ces chaises au design moderne et confortable."
+  },
+  {
+    "id": 25,
+    "nom": "Pouf Ottoman Multifonctionnel",
+    "categorie": "Mobilier",
+    "prix": 79.5,
+    "stock": 18,
+    "imgUrl": "https://images.pexels.com/photos/19367804/pexels-photo-19367804/free-photo-of-cafeine-cafe-tasse-table.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imgAlt": "Image de pouf ottoman multifonctionnel",
+    "description": "Ajoutez une assise pratique et stylée avec ce pouf ottoman multifonctionnel.",
+    "prioriteDescription": "Optimisez votre espace de vie avec ce pouf ottoman qui peut servir de siège d'appoint ou de table basse."
   }
 ]

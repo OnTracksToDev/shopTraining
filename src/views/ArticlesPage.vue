@@ -33,7 +33,6 @@ export default {
 <template>
   <section class="container row">
     <section class="col-12">
-      <h2 class="text-center">La boutique</h2>
     </section>
     <section class="col-12">
       <filter-panel/>
@@ -42,3 +41,5 @@ export default {
     </section>
   </section>
 </template>
+
+

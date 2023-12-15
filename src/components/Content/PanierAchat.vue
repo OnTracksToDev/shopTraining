@@ -21,6 +21,7 @@ export default {
   <div v-if="getPanierState.length > 0" class="container mt-4">
     <h3 class="mb-4">Contenu du panier</h3>
     <ul class="list-group">
+      <transition-group name="fade" mode="out-in">
       <li v-for="(item, index) in getPanierState" :key="item.id" class="list-group-item d-flex justify-content-between align-items-center">
         <div class="d-flex align-items-center">
           <img :src="item.imgUrl" :alt="item.imgAlt" class="img-thumbnail mr-3 me-4" style="width: 50px; height: 50px;">
@@ -31,6 +32,7 @@ export default {
         </div>
         <button @click="retirerDuPanierAction(index)" class="btn btn-danger">Retirer du panier</button>
       </li>
+    </transition-group>
     </ul>
     <p class="mt-3"><strong>Total:</strong> 💸 {{ calculerTotalState }}€</p>
     <button class="btn btn-success">Procéder au paiement</button>
@@ -39,3 +41,13 @@ export default {
     <h3>Votre panier est vide pour le moment... 🛍️</h3>
   </div>
 </template>
+
+<style>
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to 
+{
+  opacity: 0;
+}
+</style>

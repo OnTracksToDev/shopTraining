@@ -152,10 +152,9 @@ export default {
 </script>
 
 <template>
-  <h2 class="text-center">Gestion article</h2>
 
   <section class="container">
-    <h2 class="text-center">Article Form {{ editionMode === true ? 'Edition' : 'Nouveau ' }}</h2>
+    <h2 class="text-center">{{ editionMode === true ? 'Edition' : 'Nouvel ' }} Article</h2>
     <div v-if="error" class="alert alert-warning">
       {{ error }}
     </div>
