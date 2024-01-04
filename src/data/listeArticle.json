@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nom": "Lampadaire Design",
-    "categorie": "Luminaires",
+   "category": "Luminaires",
     "prix": 129.99,
     "stock": 20,
     "imgUrl": "https://cdn.pixabay.com/photo/2018/09/25/13/47/armchair-3702332_1280.jpg",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "nom": "Suspension Lumineuse",
-    "categorie": "Luminaires",
+   "category": "Luminaires",
     "prix": 79.5,
     "stock": 25,
     "imgUrl": "https://images.pexels.com/photos/4946816/pexels-photo-4946816.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "nom": "Appliques Murales",
-    "categorie": "Luminaires",
+   "category": "Luminaires",
     "prix": 45.99,
     "stock": 18,
     "imgUrl": "https://cdn.pixabay.com/photo/2017/01/25/11/35/lighting-2007658_640.jpg",
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "nom": "Abat-jour Stylisé",
-    "categorie": "Luminaires",
+   "category": "Luminaires",
     "prix": 34.95,
     "stock": 22,
     "imgUrl": "https://images.pexels.com/photos/37869/lamps-light-lampshade-screen-37869.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "nom": "Coussins Décoratifs",
-    "categorie": "Textiles",
+   "category": "Textiles",
     "prix": 18.99,
     "stock": 30,
     "imgUrl": "https://images.pexels.com/photos/3991265/pexels-photo-3991265.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -57,7 +57,7 @@
   {
     "id": 6,
     "nom": "Tapis Contemporain",
-    "categorie": "Textiles",
+   "category": "Textiles",
     "prix": 64.5,
     "stock": 15,
     "imgUrl": "https://cdn.pixabay.com/photo/2017/06/30/15/40/carpet-2458558_640.jpg",
@@ -68,7 +68,7 @@
   {
     "id": 7,
     "nom": "Rideaux Élégants",
-    "categorie": "Textiles",
+   "category": "Textiles",
     "prix": 27.99,
     "stock": 25,
     "imgUrl": "https://images.pexels.com/photos/8068647/pexels-photo-8068647.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -79,7 +79,7 @@
   {
     "id": 8,
     "nom": "Jeté de Canapé en Tricot",
-    "categorie": "Textiles",
+   "category": "Textiles",
     "prix": 38.75,
     "stock": 20,
     "imgUrl": "https://images.pexels.com/photos/6707630/pexels-photo-6707630.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -90,7 +90,7 @@
   {
     "id": 9,
     "nom": "Miroir Mural Moderne",
-    "categorie": "Accessoires Muraux",
+   "category": "Accessoires Muraux",
     "prix": 55.99,
     "stock": 18,
     "imgUrl": "https://images.pexels.com/photos/6899356/pexels-photo-6899356.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -101,7 +101,7 @@
   {
     "id": 10,
     "nom": "Étagères Flottantes",
-    "categorie": "Accessoires Muraux",
+   "category": "Accessoires Muraux",
     "prix": 42.5,
     "stock": 22,
     "imgUrl": "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -112,7 +112,7 @@
   {
     "id": 11,
     "nom": "Tableaux Artistiques",
-    "categorie": "Accessoires Muraux",
+   "category": "Accessoires Muraux",
     "prix": 78.0,
     "stock": 15,
     "imgUrl": "https://images.pexels.com/photos/7951528/pexels-photo-7951528.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -123,7 +123,7 @@
   {
     "id": 12,
     "nom": "Horloge Design",
-    "categorie": "Accessoires Muraux",
+   "category": "Accessoires Muraux",
     "prix": 32.99,
     "stock": 20,
     "imgUrl": "https://images.pexels.com/photos/2909099/pexels-photo-2909099.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -134,7 +134,7 @@
   {
     "id": 13,
     "nom": "Sculpture Abstraite",
-    "categorie": "Objets Décoratifs",
+   "category": "Objets Décoratifs",
     "prix": 48.5,
     "stock": 18,
     "imgUrl": "https://cdn.pixabay.com/photo/2014/04/07/19/01/rhino-318834_640.jpg",
@@ -145,7 +145,7 @@
   {
     "id": 14,
     "nom": "Bougeoirs Design",
-    "categorie": "Objets Décoratifs",
+   "category": "Objets Décoratifs",
     "prix": 21.99,
     "stock": 25,
     "imgUrl": "https://cdn.pixabay.com/photo/2013/11/28/18/28/candles-220754_640.jpg",
@@ -156,7 +156,7 @@
   {
     "id": 15,
     "nom": "Vases en Verre Soufflé",
-    "categorie": "Objets Décoratifs",
+   "category": "Objets Décoratifs",
     "prix": 33.75,
     "stock": 20,
     "imgUrl": "https://images.pexels.com/photos/8903267/pexels-photo-8903267.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -167,7 +167,7 @@
   {
     "id": 16,
     "nom": "Statuettes Artistiques",
-    "categorie": "Objets Décoratifs",
+   "category": "Objets Décoratifs",
     "prix": 26.5,
     "stock": 22,
     "imgUrl": "https://cdn.pixabay.com/photo/2017/05/02/00/45/statuette-2277041_640.jpg",
@@ -179,7 +179,7 @@
   {
     "id": 17,
     "nom": "Chaise Pivotante Confort",
-    "categorie": "Mobilier",
+   "category": "Mobilier",
     "prix": 159.99,
     "stock": 15,
     "imgUrl": "https://cdn.pixabay.com/photo/2022/07/20/14/58/red-chair-7334319_640.jpg",
@@ -190,7 +190,7 @@
   {
     "id": 18,
     "nom": "Bureau Moderne en Bois",
-    "categorie": "Mobilier",
+   "category": "Mobilier",
     "prix": 249.5,
     "stock": 12,
     "imgUrl": "https://cdn.pixabay.com/photo/2017/08/06/01/49/table-2587598_640.jpg",
@@ -201,7 +201,7 @@
   {
     "id": 19,
     "nom": "Canapé Convertible Confortable",
-    "categorie": "Mobilier",
+   "category": "Mobilier",
     "prix": 349.99,
     "stock": 10,
     "imgUrl": "https://cdn.pixabay.com/photo/2017/08/02/01/01/living-room-2569325_640.jpg",
@@ -212,7 +212,7 @@
   {
     "id": 20,
     "nom": "Table Basse Design",
-    "categorie": "Mobilier",
+   "category": "Mobilier",
     "prix": 129.95,
     "stock": 18,
     "imgUrl": "https://cdn.pixabay.com/photo/2021/02/03/23/10/living-room-5979695_640.jpg",
@@ -223,7 +223,7 @@
   {
     "id": 21,
     "nom": "Armoire de Rangement Spacieuse",
-    "categorie": "Mobilier",
+   "category": "Mobilier",
     "prix": 299.5,
     "stock": 14,
     "imgUrl": "https://images.pexels.com/photos/6508343/pexels-photo-6508343.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -234,7 +234,7 @@
   {
     "id": 22,
     "nom": "Lampe de Bureau Réglable",
-    "categorie": "Luminaires",
+   "category": "Luminaires",
     "prix": 49.99,
     "stock": 20,
     "imgUrl": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -245,7 +245,7 @@
   {
     "id": 23,
     "nom": "Miroir Pleine Longueur",
-    "categorie": "Accessoires Muraux",
+   "category": "Accessoires Muraux",
     "prix": 79.95,
     "stock": 15,
     "imgUrl": "https://images.pexels.com/photos/5998062/pexels-photo-5998062.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -256,7 +256,7 @@
   {
     "id": 24,
     "nom": "Ensemble de Table et Chaises",
-    "categorie": "Mobilier",
+   "category": "Mobilier",
     "prix": 399.0,
     "stock": 10,
     "imgUrl": "https://images.pexels.com/photos/2092058/pexels-photo-2092058.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -267,7 +267,7 @@
   {
     "id": 25,
     "nom": "Pouf Ottoman Multifonctionnel",
-    "categorie": "Mobilier",
+   "category": "Mobilier",
     "prix": 79.5,
     "stock": 18,
     "imgUrl": "https://images.pexels.com/photos/19367804/pexels-photo-19367804/free-photo-of-cafeine-cafe-tasse-table.jpeg?auto=compress&cs=tinysrgb&w=600",

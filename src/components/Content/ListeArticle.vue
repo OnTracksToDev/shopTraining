@@ -53,19 +53,19 @@ export default {
     },
     changePage(page) {
       this.currentPage = page
-    }
+    }, 
   },
   computed: {
-    ...mapState(useArticlesStore, ['articles']),
+    ...mapState(useArticlesStore, ['articles','getFilteredArticles']),
     // Calcule le tableau d'articles pour la page actuelle
     paginatedArticles() {
       const startIndex = (this.currentPage - 1) * this.itemsPerPage
       const endIndex = startIndex + this.itemsPerPage
-      return this.articles.slice(startIndex, endIndex)
+      return this.getFilteredArticles.slice(startIndex, endIndex)
     },
     // Calcule le nombre total de pages
     totalPages() {
-      return Math.ceil(this.articles.length / this.itemsPerPage)
+      return Math.ceil(this.getFilteredArticles.length / this.itemsPerPage)
     }
   }
 }
@@ -132,7 +132,7 @@ export default {
           :totalPages="totalPages"
           @page-change="changePage"
         />
-        <div v-for="item in paginatedArticles" :key="item.id" class="col-md-3 mb-4">
+        <div v-for="item in getFilteredArticles" :key="item.id" class="col-md-3 mb-4">
           <div class="card">
             <img
               :src="item.imgUrl"
