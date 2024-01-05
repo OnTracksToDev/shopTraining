@@ -39,8 +39,8 @@ const router = createRouter({
       component: ArticleDetailPage
     },
     {
-      path: '/quiz',
-      name: 'quiz',
+      path: '/formulaire',
+      name: 'formulaire',
       component: HelloPage
     }
 

@@ -24,7 +24,7 @@ export default {
 
 <template>
   <div class="row">
-    <h2 class="text-center pt-5">Titre Surprise</h2>
+    <h2 class="text-center pt-5">A propos de vous</h2>
     <div class="col-lg-6">
       <user-form @formSubmitted="handleFormSubmitted"> </user-form>
     </div>

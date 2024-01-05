@@ -18,8 +18,8 @@ let NavItemsArray = ref([
     class: 'nav-link'
   },
   {
-    name: 'Quiz',
-    link: '/quiz',
+    name: 'Formulaire',
+    link: '/Formulaire',
     target: '_self',
     class: 'nav-link'
   },
