@@ -53,7 +53,10 @@ export default {
     },
     changePage(page) {
       this.currentPage = page
-    }
+    },
+    limitCharacters(text, limit) {
+    return text.length > limit ? text.slice(0, limit) + '...' : text;
+  },
   },
   computed: {
     ...mapState(useArticlesStore, ['articles', 'getFilteredArticles']),
@@ -88,7 +91,7 @@ export default {
           />
           <div>{{ item.nom }} : {{ item.prix }}€</div>
           <div>
-            <button @click="editArticle(item)" class="btn btn-custom_green">
+            <button @click="editArticle(item)" class="btn btn-custom_green btn-sm">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                 <g
                   fill="none"
@@ -102,7 +105,7 @@ export default {
                 </g>
               </svg>
             </button>
-            <button @click="deleteArticle(item)" class="btn btn-custom_red">
+            <button @click="deleteArticle(item)" class="btn btn-custom_red btn-sm">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                 <path
                   fill="currentColor"
@@ -112,7 +115,7 @@ export default {
             </button>
             <router-link
               :to="{ name: 'ArticleDetail', params: { id: item.id } }"
-              class="btn btn-custom_violet"
+              class="btn btn-custom_violet btn-sm"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
                 <path
@@ -135,13 +138,12 @@ export default {
           <div class="card">
             <img
               :src="item.imgUrl"
-              class="card-img-top img-fluid"
+              class="card-img-top img-fluid mx-auto"
               :alt="item.imgAlt"
-              style="aspect-ratio: 10/9"
             />
             <div class="card-body">
-              <h5 class="card-title">{{ item.nom }}</h5>
-              <p class="card-text">{{ item.prix }}€</p>
+              <h5 class="card-title">{{ limitCharacters(item.nom, 18) }}</h5>
+                            <p class="card-text">{{ item.prix }}€</p>
             </div>
 
             <div class="card-footer d-flex justify-content-around align-items-center">
@@ -177,11 +179,17 @@ export default {
 
 <style scoped>
 .card {
+
   position: relative;
   overflow: hidden;
   transition:
     transform 0.4s,
     box-shadow 0.3s;
+}
+.card img{
+  aspect-ratio: 9/8;
+  max-height:350px;
+  
 }
 
 .card:hover {

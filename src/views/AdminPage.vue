@@ -35,14 +35,14 @@ export default {
     <section class="col-12">
       <h2 class="text-center">Gestion Articles</h2>
     </section>
-    <section class="col-lg-6">
+    <section class="col-lg-7">
       <liste-article 
       @editArticleItem="editArticleItemFun" 
       :adminMode="true" 
       />
 
     </section>
-    <section class="col-lg-6">
+    <section class="col-lg-5">
       <article-form
         @updateArticleToList="reset"
         :editMode="editMode"

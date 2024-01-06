@@ -35,12 +35,12 @@ export default {
       <nav aria-label="Page navigation">
         <ul class="pagination">
           <li :class="{ disabled: currentPage === 1 }" class="page-item">
-            <button @click="goToPage(1)" class="page-link" aria-label="First">
+            <button @click="goToPage(1)" class="page-link page-link-custom" aria-label="First">
               <span aria-hidden="true">&laquo;&laquo;</span>
             </button>
           </li>
           <li :class="{ disabled: currentPage === 1 }" class="page-item">
-            <button @click="previousPage" class="page-link" aria-label="Previous">
+            <button @click="previousPage" class="page-link page-link-custom" aria-label="Previous">
               <span aria-hidden="true">&laquo;</span>
             </button>
           </li>
@@ -51,16 +51,16 @@ export default {
             :class="{ active: currentPage === page }"
             class="page-item"
           >
-            <button @click="goToPage(page)" class="page-link">{{ page }}</button>
+            <button @click="goToPage(page)" class="page-link page-link-custom">{{ page }}</button>
           </li>
   
           <li :class="{ disabled: currentPage === totalPages }" class="page-item">
-            <button @click="nextPage" class="page-link" aria-label="Next">
+            <button @click="nextPage" class="page-link page-link-custom" aria-label="Next">
               <span aria-hidden="true">&raquo;</span>
             </button>
           </li>
           <li :class="{ disabled: currentPage === totalPages }" class="page-item">
-            <button @click="goToPage(totalPages)" class="page-link" aria-label="Last">
+            <button @click="goToPage(totalPages)" class="page-link page-link-custom" aria-label="Last">
               <span aria-hidden="true">&raquo;&raquo;</span>
             </button>
           </li>
@@ -77,4 +77,6 @@ export default {
 .pagination a {
     cursor: pointer;
 }
+
+
 </style>

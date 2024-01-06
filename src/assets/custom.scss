@@ -1,5 +1,4 @@
-
-// Ajoutez ou modifiez les variables personnalisées
+// Variables personnalisées
 $theme-colors: (
   "primary":  #F4EBD9,
   "custom_red": #FA8575,
@@ -7,8 +6,28 @@ $theme-colors: (
   "custom_gray": #B4B4BB,
   "custom_violet": #BABFDE
 );
-// Importez les variables Bootstrap
+
+// Importation des fonctions Bootstrap
+@import '~bootstrap/scss/functions';
+
+// Importation des variables Bootstrap
+@import '~bootstrap/scss/variables';
+
+// Fusion des variables Bootstrap avec les personnalisées
+$theme-colors: map-merge($theme-colors, $theme-colors);
+
+
+// Importation des styles de base Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-// Créez une classe personnalisée qui étend page-link
+// Styles personnalisés
+.page-link-custom {
+  color: black; 
+  background-color: #ecf0f1; 
+  border-color: #bdc3c7; 
+}
 
+.page-link-custom:hover {
+  color: #2c3e50; 
+  background-color: map-get($theme-colors, custom_gray) !important;  
+}

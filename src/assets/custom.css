@@ -13075,4 +13075,14 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.page-link-custom {
+  color: black;
+  background-color: #ecf0f1;
+  border-color: #bdc3c7;
+}
+
+.page-link-custom:hover {
+  color: #2c3e50;
+  background-color: #B4B4BB !important;
 }/*# sourceMappingURL=custom.css.map */
