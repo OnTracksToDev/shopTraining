@@ -27,7 +27,7 @@ export default {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-custom_gray">
     <div class="container-fluid">
       <RouterLink class="navbar-brand" to="/">
         <img

@@ -3,7 +3,7 @@
     <!-- Header -->
     <header class="custom-header text-center mb-5">
       <h1 class="display-3 font-weight-bold">Bienvenue dans notre boutique en ligne</h1>
-      <router-link :to="{ name: 'Articles' }" class="btn btn-warning btn-lg mt-3">
+      <router-link :to="{ name: 'Articles' }" class="btn bg-custom_violet btn-lg mt-3">
         <p class="lead">Découvrez nos produits de haute qualité</p>
       </router-link>
     </header>

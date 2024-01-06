@@ -30,12 +30,12 @@ export default {
             <p class="mb-0"><strong>{{ item.prix }}€</strong> x {{ item.quantite }}</p>
           </div>
         </div>
-        <button @click="retirerDuPanierAction(index)" class="btn btn-danger">Retirer du panier</button>
+        <button @click="retirerDuPanierAction(index)" class="btn btn-custom_red">Retirer du panier</button>
       </li>
     </transition-group>
     </ul>
     <p class="mt-3"><strong>Total:</strong> 💸 {{ calculerTotalState }}€</p>
-    <button class="btn btn-success">Procéder au paiement</button>
+    <button class="btn btn-custom_violet">Procéder au paiement</button>
   </div>
   <div v-else class="text-center mt-4">
     <h3>Votre panier est vide pour le moment... 🛍️</h3>

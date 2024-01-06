@@ -1,0 +1,14 @@
+
+// Ajoutez ou modifiez les variables personnalisées
+$theme-colors: (
+  "primary":  #F4EBD9,
+  "custom_red": #FA8575,
+  "custom_green":   #BBC7A4,
+  "custom_gray": #B4B4BB,
+  "custom_violet": #BABFDE
+);
+// Importez les variables Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Créez une classe personnalisée qui étend page-link
+
